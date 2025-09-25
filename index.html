@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-container">
+        <h1 id="event-name">Event Countdown</h1>
+        <div id="countdown">
+            <span id="days">00</span>d :
+            <span id="hours">00</span>h :
+            <span id="minutes">00</span>m :
+            <span id="seconds">00</span>s
+        </div>
+        <div class="settings">
+            <input type="text" id="eventInput" placeholder="Event Name">
+            <input type="datetime-local" id="dateInput">
+            <button id="setBtn">Set Event</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

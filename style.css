@@ -1,0 +1,49 @@
+/* style.css */
+
+body {
+    background: #ffffff;
+    color: #000101;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-container {
+    background: #67636376;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(37, 36, 36, 0.4);
+    text-align: center;
+}
+
+#countdown {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    letter-spacing: 2px;
+}
+
+.settings {
+    margin-top: 1rem;
+}
+
+.settings input, .settings button {
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+}
+
+.settings button {
+    background: #98af99;
+    color: #042924;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.settings button:hover {
+    background: #388e3c;
+}
